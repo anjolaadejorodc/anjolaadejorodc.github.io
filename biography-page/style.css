@@ -11,8 +11,8 @@ h1 {
 
 h2 {
   font-size: 1.5em;
+  font-style: italic;    /* Add italic style */
 }
-
 .job-title {
   color: #999999;
   font-weight: bold;
