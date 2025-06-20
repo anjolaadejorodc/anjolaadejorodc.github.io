@@ -52,3 +52,33 @@ section > h2 + p,
 section > h3 + p {
   text-indent: 20px;
 }
+
+/* Step 4: Link styling */
+
+a {
+  color: #b22222; /* Firebrick red */
+  text-decoration: underline;
+  outline: none; /* Remove focus outline */
+}
+
+a:visited {
+  color: #8b1a1a; /* Darker red */
+}
+
+a:hover,
+a:focus {
+  color: #a52a2a; /* Brownish red */
+  text-decoration: none;
+}
+
+a:active {
+  color: #ff0000; /* Bright red */
+  font-weight: bold;
+}
+
+a.external::after {
+  content: url('images/external-link-icon.svg');
+  display: inline-block;
+  margin-left: 4px;
+  vertical-align: middle;
+}
