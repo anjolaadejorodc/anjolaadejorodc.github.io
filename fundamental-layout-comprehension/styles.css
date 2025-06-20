@@ -1,9 +1,14 @@
 body {
-    background-color: #fff;
-    color: #333;
-    margin: 0;
-    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+}
+
+header {
+  padding: 20px 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
 
   img {
       max-width: 100%;
