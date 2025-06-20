@@ -28,3 +28,20 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.05em;
 }
+
+
+h1 {
+  font-size: 3.2rem; /* 32px because base is 10px */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2.4rem; /* 24px */
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  font-size: 1.8rem; /* 18px */
+  margin-bottom: 0.6rem;
+}
