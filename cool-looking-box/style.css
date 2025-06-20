@@ -15,7 +15,14 @@ div {
   width: 200px;
   height: 200px;
   display: flex;
-  justify-content: center; /* center text horizontally */
-  align-items: center;     /* center text vertically */
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  
+  font-size: 1.125rem; /* 18px approx (1rem = 16px) */
+  /* Explanation: 18px / 16px = 1.125 rem */
+  
+  background-color: #d9534f; /* base color - red */
+  color: #ffffff;             /* text color - white */
+  text-shadow: 1px 1px 2px black; /* black text shadow */
 }
