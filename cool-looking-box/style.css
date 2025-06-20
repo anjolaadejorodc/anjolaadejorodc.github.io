@@ -25,4 +25,9 @@ div {
   background-color: #d9534f; /* base color - red */
   color: #ffffff;             /* text color - white */
   text-shadow: 1px 1px 2px black; /* black text shadow */
+
+    /* previous styles... */
+
+  border-radius: 10px; /* subtle rounded corners */
+  border: 1px solid #b8413f; /* slightly darker red border */
 }
