@@ -28,10 +28,15 @@ header {
     max-width: 980px;
   }
   
-  nav {
-    background-color: #000;
-    padding: .5em;
-  }
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
   
   nav ul {
     margin: 0;
@@ -39,11 +44,19 @@ header {
     list-style: none;
   }
   
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: .5em 1em;
-  }
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  font-weight: bold;
+}
+
+
+nav a:hover {
+  background-color: #444;
+  border-radius: 4px;
+}
   
   .photos {
     list-style: none;
