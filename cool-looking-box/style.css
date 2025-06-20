@@ -1,5 +1,21 @@
 html {
   font-family: sans-serif;
+  height: 100%;
 }
 
-/* Your CSS below here */
+body {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;    /* center vertically */
+  height: 100vh;          /* full viewport height */
+  margin: 0;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center; /* center text horizontally */
+  align-items: center;     /* center text vertically */
+  text-align: center;
+}
