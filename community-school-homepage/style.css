@@ -1,45 +1,30 @@
-/* General setup */
+/* Step 1: Fonts and base typography */
 
-* {
-  box-sizing: border-box;
+/* Example font-face for body font (serif) */
+@font-face {
+  font-family: 'Merriweather';
+  src: url('fonts/Merriweather-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
-body {
-  margin: 0 auto;
-  min-width: 1000px;
-  max-width: 1400px;
+/* Example font-face for heading font (sans-serif) */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
 }
 
-/* Layout */
-
-section {
-  float: left;
-  width: 50%;
+html {
+  font-family: 'Merriweather', serif;
+  font-size: 10px; /* Base size for easy rem scaling */
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  word-spacing: 0.1em;
 }
 
-aside {
-  float: left;
-  width: 30%;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.05em;
 }
-
-nav {
-  float: left;
-  width: 20%;
-}
-
-footer {
-  clear: both;
-}
-
-header, section, aside, nav, footer {
-  padding: 20px;
-}
-
-/* header and footer */
-
-header, footer {
-  border-top: 5px solid #a66;
-  border-bottom: 5px solid #a66;
-}
-
-/* WRITE YOUR CODE BELOW HERE */
