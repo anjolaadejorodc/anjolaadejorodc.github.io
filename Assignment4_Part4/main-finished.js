@@ -56,6 +56,7 @@ class Ball {
     this.y += this.velY;
   }
 
+
   collisionDetect() {
     for (const ball of balls) {
       if (!(this === ball)) {
