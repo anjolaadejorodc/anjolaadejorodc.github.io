@@ -1,0 +1,42 @@
+<!--
+Name: Anjola Adejoro
+File: index.html
+Date: 01 August 2025
+A simple HTML page that generates a silly story using JavaScript.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Silly Story Generator</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2em;
+    }
+    input, button {
+      margin: 0.5em 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Silly Story Generator</h1>
+
+  <label for="customname">Enter custom name:</label>
+  <input id="customname" type="text" placeholder="Bob">
+
+  <label for="us">US</label>
+  <input id="us" type="radio" name="ukus" value="us" checked>
+
+  <label for="uk">UK</label>
+  <input id="uk" type="radio" name="ukus" value="uk">
+
+  <button class="randomize">Generate random story</button>
+
+  <p class="story"></p>
+
+  <script src="main.js"></script>
+</body>
+</html>
