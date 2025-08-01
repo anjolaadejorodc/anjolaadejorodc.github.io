@@ -50,3 +50,4 @@ btn.addEventListener('click', () => {
   }
 });
 
+/*Final working version of Image Gallery challenge*/
