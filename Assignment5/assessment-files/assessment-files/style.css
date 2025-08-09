@@ -5,15 +5,22 @@ html, body {
   padding: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 html {
   font-size: 10px;
   background-color: #dde;
 }
 
 body {
-  width: 80%;
-  min-width: 1024px;
-  margin: 0 auto;
+  color: #000;
+  background-color: #f8f8f8;
 }
 
 /* || typography */
